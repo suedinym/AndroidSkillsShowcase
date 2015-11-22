@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.suedinym.androidskillsshowcase.MainActivity;
+import com.suedinym.androidskillsshowcase.fragments.PlaceholderFragment;
 
 /**
  * Created by sue on 11/22/15.
@@ -24,7 +24,7 @@ import com.suedinym.androidskillsshowcase.MainActivity;
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return MainActivity.PlaceholderFragment.newInstance(position + 1);
+            return PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override
