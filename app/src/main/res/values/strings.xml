@@ -5,4 +5,9 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tab1_label">Tab 1</string>
+    <string name="tab2_label">Tab 2</string>
+    <string name="tab3_label">Tab 3</string>
+    <string name="tab4_label">Tab 4</string>
 </resources>
