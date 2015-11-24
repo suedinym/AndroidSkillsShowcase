@@ -1,5 +1,7 @@
-package com.suedinym.androidskillsshowcase;
+package com.suedinym.androidskillsshowcase.ui;
 
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -14,6 +16,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import com.suedinym.androidskillsshowcase.R;
 import com.suedinym.androidskillsshowcase.adapters.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
@@ -52,14 +55,14 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         // TODO: 11/22/15 work with floating action bar. Code goes here
-      /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });*/
+        });
 
     }
 

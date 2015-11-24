@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SimpleStyle.BigPurple">
+        <item name="android:textSize">16pt</item>
+        <item name="android:textColor">#FF00FF</item>
+    </style>
+</resources>

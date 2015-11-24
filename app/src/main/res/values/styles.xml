@@ -1,11 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!--
+    Base application theme, dependent on API level. This theme is replaced
+    by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+-->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background_light</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface" >serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize" >13pt</item>
+        <item name="android:shadowDx" >1.5</item>
+        <item name="android:shadowDy" >1.5</item>
+        <item name="android:shadowRadius" >1</item>
+        <item name="android:shadowColor" >#AAAAAA</item>
+        <item name="android:gravity" >center</item>
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -13,5 +31,34 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/background</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/background</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width" >300dp</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:layout_marginTop" >10dp</item>
+        <item name="android:textSize" >10pt</item>
+        <item name="android:background" >#d2a066</item>
+    </style>
 
 </resources>
