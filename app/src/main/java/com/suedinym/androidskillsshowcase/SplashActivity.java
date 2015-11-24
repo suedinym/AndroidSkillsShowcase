@@ -1,8 +1,10 @@
 package com.suedinym.androidskillsshowcase;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 import com.suedinym.androidskillsshowcase.ui.MainActivity;
 
@@ -10,12 +12,18 @@ import com.suedinym.androidskillsshowcase.ui.MainActivity;
  * Created by sue on 11/23/15.
  */
 public class SplashActivity extends AppCompatActivity {
-
+    private Typeface font;
+    private TextView text1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        text1 = (TextView) findViewById(R.id.splashTxt);
+        font = Typeface.createFromAsset(getAssets(), "fonts/sigv.ttf");
+        text1.setTypeface(font);
+
         Thread timer = new Thread(){
             public void run(){
                 try{
