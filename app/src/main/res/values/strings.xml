@@ -38,6 +38,7 @@ My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Ja
 
     <string name="frag_two">Second Fragment</string>
     <string name="frag_one">First Fragment</string>
+
     <string name="gender_female">female</string>
     <string name="gender_male">male</string>
     <string name="subscribe_newsletter">Subscribe to newsletter</string>
@@ -52,5 +53,8 @@ My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Ja
     <string name="sign_up_text">SIGN UP</string>
     <string name="login_text">LOGIN</string>
     <string name="submit_button">Submit</string>
+
+    <string name="help_text">This app is a portfolio for demonstration purposes only.\n\n
+        Login, etc are simulated.</string>
 
 </resources>
