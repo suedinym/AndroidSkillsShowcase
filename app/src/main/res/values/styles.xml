@@ -16,14 +16,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:typeface" >serif</item>
+
         <item name="android:textColor">#000000</item>
-        <item name="android:textSize" >13pt</item>
-        <item name="android:shadowDx" >1.5</item>
-        <item name="android:shadowDy" >1.5</item>
-        <item name="android:shadowRadius" >1</item>
-        <item name="android:shadowColor" >#AAAAAA</item>
-        <item name="android:gravity" >center</item>
+        <!--<item name="android:textSize" >13pt</item>-->
+
+
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -52,7 +49,7 @@
         <item name="android:layout_width" >300dp</item>
         <item name="android:layout_height" >wrap_content</item>
         <item name="android:layout_marginTop" >10dp</item>
-        <item name="android:textSize" >10pt</item>
+        <item name="android:textSize" >10sp</item>
         <item name="android:background" >#d2a066</item>
     </style>
 

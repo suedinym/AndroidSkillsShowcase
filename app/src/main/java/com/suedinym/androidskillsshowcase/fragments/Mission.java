@@ -12,6 +12,7 @@ import com.suedinym.androidskillsshowcase.R;
 /**
  * Created by sue on 11/23/15.
  */
+// TODO: 11/27/15 fix the string so it fits on the page
 public class Mission extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
