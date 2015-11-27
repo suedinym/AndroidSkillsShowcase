@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,11 +6,114 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.suedinym.ui_project.SignUpActivity">
+    tools:context="com.suedinym.androidskillsshowcase.authenticator.SignUpActivity"
+    android:background="@drawable/linear_gradient_lt_dk">
 
-    <TextView
-        android:text="@string/hello_world"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height= "150dp"
+        android:id="@+id/loginImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo1"
+        android:background="@drawable/radial_gradient"
+        android:contentDescription="@string/android_logo" />
+
+    <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usernameEditText"
+        android:maxLength="30"
+        android:hint="@string/user_name"
+        android:layout_below="@+id/loginImageView"
+        android:layout_alignLeft="@+id/passwordEditText"
+        android:layout_alignStart="@+id/passwordEditText"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordEditText"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_centerHorizontal="true"
+        android:maxLength="20"
+        android:hint="@string/password"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordEditText1"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:maxLength="20"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailEditText"
+        android:layout_below="@+id/passwordEditText1"
+        android:layout_alignLeft="@+id/passwordEditText1"
+        android:layout_alignStart="@+id/passwordEditText1"
+        android:hint="@string/email" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/emailEditText"
+        android:id="@+id/radioLayout">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/radioGender"
+
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/choiceBoy"
+                android:text="@string/gender_male"
+                android:textColor="#96010101"
+                android:checked="true"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_female"
+                android:id="@+id/choiceGirl"
+                android:textColor="#96010101"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+        <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_newsletter"
+        android:id="@+id/checkBoxSub"
+            android:layout_below="@+id/radioLayout"
+
+            android:layout_alignLeft="@+id/emailEditText"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allow_email"
+            android:id="@+id/checkBoxAllowMail"
+            android:layout_below="@+id/checkBoxSub"
+
+            android:layout_alignLeft="@id/checkBoxSub" />
+
+
 
 </RelativeLayout>

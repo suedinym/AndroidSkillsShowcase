@@ -16,7 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/logo"
-        android:background="@drawable/radial_gradient"/>
+        android:background="@drawable/radial_gradient"
+        android:contentDescription="@string/android_logo" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:maxLength="30"
-        android:hint="User Name"/>
+        android:hint="@string/user_name"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -38,12 +39,12 @@
         android:layout_below="@+id/usernameEditText"
         android:layout_centerHorizontal="true"
         android:maxLength="20"
-        android:hint="password"/>
+        android:hint="@string/password"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Remember me"
+        android:text="@string/remember_check"
         android:id="@+id/rememberMeCheckBox"
         android:layout_below="@+id/passwordEditText"
         android:layout_centerHorizontal="true"
@@ -53,7 +54,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot password?"
+        android:text="@string/forgot_pass"
         android:id="@+id/forgotPasswordTextView"
         android:layout_below="@+id/rememberMeCheckBox"
         android:layout_centerHorizontal="true"/>
@@ -62,12 +63,12 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIGN UP"
+        android:text="@string/sign_up_text"
         android:id="@+id/buttonSignUp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#5c3566"
+        android:background="@color/opaque_background"
         android:textColor="@android:color/white"
         android:layout_toLeftOf="@+id/passwordEditText"
         android:layout_toStartOf="@+id/passwordEditText"/>
@@ -76,7 +77,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="@string/login_text"
         android:id="@+id/loginButton"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/forgotPasswordTextView"

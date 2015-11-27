@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="splash_text">Sue Jensen\'s \nAndroid Skills Showcase</string>
@@ -13,11 +13,11 @@
     <string name="exp_label">Experience</string>
     <string name="edu_label">Education</string>
 
-    <string name="about_long_text">Hi, my name is Sue. \n\n I apparently don\'t see the world quite the same way as a lot of people; give me a lump of clay, and faeries spring out of it; give me a bolt of fabric, and you may find yourself ready for a toga-party-- or Shakespearean tragedy. It really could go either way.\n\nGive me an Android device and I\'m likely to rip it\'s guts out to see what\'s inside. Most of my apps have been tested and debugged on a variety of rooted and non-rooted devices, many of which were purchased (broken) on eBay and fixed.</string>
+    <string name="about_long_text">Hi, my name is Sue. \n\n I apparently don\'t see the world quite the same way as a lot of people; give me a lump of clay, and faeries spring out of it; give me a bolt of fabric, and you may find yourself ready for a toga-party— or Shakespearean tragedy. It really could go either way.\n\nGive me an Android device and I\'m likely to rip it\'s guts out to see what\'s inside. Most of my apps have been tested and debugged on a variety of rooted and non-rooted devices, many of which were purchased (broken) on eBay and fixed.</string>
     <string name="mission_long_text"> When I was a kid, my mission in life was to figure out how to pull rabbits out of hats, nickels out of people\’s ears, and guess what card a person was holding before they even knew themselves. Not a lot has changed--- although I\'m not quite as impressed with nickels as I used to be.\n\n I want to be an alchemist when I grow up (if I ever do)-- changing ordinary things into extra-ordinary things.
-My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Janet Evanovich, as poetic as Bob Dylan, as timeless as the Beatles, as imaginative as Lewis Caroll--- and (almost) as meticulous as Mr. Monk.\n\n
-        That\’s some pretty big stuff ... but the very notion of a Big Hairy Audacious Goal is that it\’s probably too big to achieve in one lifetime, which keeps one striving to achieve the apex of their personal potential.</string>
-    <string name="education_long_text">Like Farhan Quershi in the Bollywood film 3 Idiots my parents expected their first-born to be an engineer--- while my classmates were afraid I\'d try to build a bridge -- or nuclear reactor. Thus I hold a BA in theatre, with an emphasis in costume design, and a minor in engineering.\n\n
+My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Janet Evanovich, as poetic as Bob Dylan, as timeless as the Beatles, as imaginative as Lewis Caroll and (almost) as meticulous as Mr. Monk.\n\n
+        That\’s some pretty big stuff … but the very notion of a Big Hairy Audacious Goal is that it\’s probably too big to achieve in one lifetime, which keeps one striving to achieve the apex of their personal potential.</string>
+    <string name="education_long_text">Like Farhan Quershi in the Bollywood film 3 Idiots, my parents expected their first-born to be an engineer--- while my classmates were afraid I\'d try to build a bridge -- or nuclear reactor. Thus I hold a BA in theatre, with an emphasis in costume design, and a minor in engineering.\n\n
    Temple University - BA in Theatre: costume design, pattern-making and construction\n\n
         Antonelli Institute - Associate degree: Illustration and commercial art\n\n
         Despite earning an Associate degree in commercial art at Antonelli Institute, the best life-drawing instruction I ever had was a six month certification in massage therapy. (Nothing beats hands-on anatomy.)
@@ -38,5 +38,17 @@ My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Ja
 
     <string name="frag_two">Second Fragment</string>
     <string name="frag_one">First Fragment</string>
+    <string name="gender_female">female</string>
+    <string name="gender_male">male</string>
+    <string name="subscribe_newsletter">Subscribe to newsletter</string>
+    <string name="allow_email">Allow Email</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="user_name">User Name</string>
+    <string name="android_logo">Android Logo</string>
+    <string name="remember_check">Remember me</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="login_text">LOGIN</string>
 
 </resources>
