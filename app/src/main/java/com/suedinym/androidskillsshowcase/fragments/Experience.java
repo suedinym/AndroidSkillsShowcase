@@ -1,22 +1,26 @@
 package com.suedinym.androidskillsshowcase.fragments;
 
+/**
+ * Created by sue on 11/22/15.
+ */
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 import com.suedinym.androidskillsshowcase.R;
 
-/**
- * Created by sue on 11/23/15.
- */
-public class TabFour extends Fragment {
+
+public  class Experience extends Fragment {
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab_four, container, false);
-
-        return rootView;
+        View rootView = inflater.inflate(R.layout.experience, container, false);
+             return rootView;
     }
 }

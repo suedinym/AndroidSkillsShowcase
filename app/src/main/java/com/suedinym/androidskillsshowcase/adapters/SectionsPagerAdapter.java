@@ -4,10 +4,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.suedinym.androidskillsshowcase.fragments.TabFour;
-import com.suedinym.androidskillsshowcase.fragments.TabOne;
-import com.suedinym.androidskillsshowcase.fragments.TabThree;
-import com.suedinym.androidskillsshowcase.fragments.TabTwo;
+import com.suedinym.androidskillsshowcase.fragments.Education;
+import com.suedinym.androidskillsshowcase.fragments.AboutMe;
+import com.suedinym.androidskillsshowcase.fragments.Experience;
+import com.suedinym.androidskillsshowcase.fragments.Mission;
 
 /**
  * Created by sue on 11/22/15.
@@ -28,13 +28,13 @@ import com.suedinym.androidskillsshowcase.fragments.TabTwo;
 
             switch (position){
                 case 0:
-                    return new TabOne();
+                    return new AboutMe();
                 case 1:
-                    return new TabTwo();
+                    return new Mission();
                 case 2:
-                    return new TabThree();
+                    return new Experience();
                 case 3:
-                    return new TabFour();
+                    return new Education();
             }
 return null;
 
@@ -50,13 +50,13 @@ return null;
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Tab 1";
+                    return "About";
                 case 1:
-                    return "Tab 2";
+                    return "Mission";
                 case 2:
-                    return "Tab 3";
+                    return "Exp";
                 case 3:
-                    return "Tab 4";
+                    return "Edu";
             }
             return null;
         }

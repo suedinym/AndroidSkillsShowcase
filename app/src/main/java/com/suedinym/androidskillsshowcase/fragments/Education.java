@@ -6,17 +6,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 import com.suedinym.androidskillsshowcase.R;
 
 /**
  * Created by sue on 11/23/15.
  */
-public class TabOne extends Fragment {
+public class Education extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab_one, container, false);
+        View rootView = inflater.inflate(R.layout.education, container, false);
 
         return rootView;
     }
