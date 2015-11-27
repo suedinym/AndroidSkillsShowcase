@@ -1,5 +1,6 @@
 package com.suedinym.androidskillsshowcase.ui;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 
 import com.suedinym.androidskillsshowcase.R;
 import com.suedinym.androidskillsshowcase.adapters.SectionsPagerAdapter;
+import com.suedinym.androidskillsshowcase.authenticator.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //start login
+        Intent intent = new Intent(this, LoginActivity.class);
+        // TODO: 11/27/15 commented out below two lines because it's not hooked up to login yet
+      /*  intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);*/
+        startActivity(intent);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());

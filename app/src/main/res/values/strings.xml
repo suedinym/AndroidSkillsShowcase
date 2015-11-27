@@ -44,11 +44,13 @@ My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Ja
     <string name="allow_email">Allow Email</string>
     <string name="email">Email</string>
     <string name="password">password</string>
+    <string name="error_incorrect_password">Sorry that password is incorrect</string>
     <string name="user_name">User Name</string>
     <string name="android_logo">Android Logo</string>
     <string name="remember_check">Remember me</string>
     <string name="forgot_pass">Forgot password?</string>
     <string name="sign_up_text">SIGN UP</string>
     <string name="login_text">LOGIN</string>
+    <string name="submit_button">Submit</string>
 
 </resources>

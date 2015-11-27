@@ -16,3 +16,4 @@ public class sideBySideFragmentActivity extends AppCompatActivity {
         setContentView(R.layout.side_by_side_fragment_activity);
     }
 }
+// TODO: 11/27/15 add to manifest

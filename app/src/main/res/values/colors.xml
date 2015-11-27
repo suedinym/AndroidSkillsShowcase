@@ -6,6 +6,7 @@
     <color name="opaque">#cc000000</color>
     <color name="background" >#616A7F</color>
     <color name="opaque_background" >#983e4451</color>
+    <color name="opaque_background_dk">#494848</color>
     <color name="background_light" >#cccccc</color>
     <color name="background_dark" >#222222</color>
 </resources>

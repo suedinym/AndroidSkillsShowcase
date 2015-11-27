@@ -18,14 +18,14 @@
 
     <Button
         android:id="@+id/simpleTextButton"
-        style="@style/ButtonStyle"
+        style="@style/OrangeButtonStyle"
         android:layout_below="@id/bigText"
         android:text="SimpleStyle for Text 1"
         android:layout_width="match_parent" />
 
     <Button
         android:id="@+id/bigTextButton"
-        style="@style/ButtonStyle"
+        style="@style/OrangeButtonStyle"
         android:layout_below="@id/simpleTextButton"
         android:text="BigPurpleStyle for Text 2"
         android:layout_width="match_parent" />
