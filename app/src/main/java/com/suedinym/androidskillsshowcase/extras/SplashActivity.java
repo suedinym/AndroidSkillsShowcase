@@ -1,4 +1,4 @@
-package com.suedinym.androidskillsshowcase;
+package com.suedinym.androidskillsshowcase.extras;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.suedinym.androidskillsshowcase.R;
 import com.suedinym.androidskillsshowcase.ui.MainActivity;
 
 /**

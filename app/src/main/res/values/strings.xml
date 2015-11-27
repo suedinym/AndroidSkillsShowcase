@@ -8,8 +8,11 @@
 
     <string name="splash_text">Sue Jensen\'s \nAndroid Skills Showcase</string>
 
-    <string name="tab1_label">Tab 1</string>
-    <string name="tab2_label">Tab 2</string>
-    <string name="tab3_label">Tab 3</string>
-    <string name="tab4_label">Tab 4</string>
+    <string name="tab1_label">About</string>
+    <string name="tab2_label">Mission</string>
+    <string name="tab3_label">Exp</string>
+    <string name="tab4_label">Edu</string>
+
+    <string name="frag_two">Second Fragment</string>
+    <string name="frag_one">First Fragment</string>
 </resources>
