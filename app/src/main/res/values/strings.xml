@@ -56,5 +56,9 @@ My Big Hairy Audacious Goal - to be as prolific as Stephen King, as absurd as Ja
 
     <string name="help_text">This app is a portfolio for demonstration purposes only.\n\n
         Login, etc are simulated.</string>
+    <string name="about_title">About</string>
+    <string name="mission_title">Mission</string>
+    <string name="exp_title">Exp</string>
+    <string name="edu_title">Edu</string>
 
 </resources>

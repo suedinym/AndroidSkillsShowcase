@@ -1,5 +1,6 @@
 package com.suedinym.androidskillsshowcase.ui;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+  //  private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        mSectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -63,7 +65,28 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        // TODO: 11/22/15 work with floating action bar. Code goes here
+       // setupTabIcons();
+
+
+    }
+/*
+    private void setupTabIcons() {
+        int[] tabIcons = {
+                R.drawable.ic_about,
+                R.drawable.ic_mission,
+                R.drawable.ic_exp,
+                R.drawable.ic_edu
+        };
+
+
+    tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+    tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+    tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
+}*/
+
+
+    // TODO: 11/22/15 work with floating action bar. Code goes here
    /*     FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });*/
 
-    }
+    // }
 
 // TODO: 11/22/15 menu commented out til I get to it
 /*    @Override
@@ -97,9 +120,10 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }*/
-
-
-
-
-
 }
+
+
+
+
+
+

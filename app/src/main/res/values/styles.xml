@@ -41,8 +41,16 @@
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@color/background</item>
 
+
         <!-- Support library compatibility -->
         <item name="background">@color/background</item>
+    </style>
+    <!-- Override tab behavior in order to set icons -->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
     </style>
     <style name="HeaderLogo">
         <item name="android:layout_width" >match_parent</item>
